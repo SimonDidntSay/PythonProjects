@@ -1,0 +1,16 @@
+Days_this_year = int(input("How many days are in this year?"))
+
+DaysInYear = 365
+DaysInLeapYear = 366
+HoursInDay = 24
+MinutesInHour = 60
+SecondsInMinute = 60
+
+SecondsInYear = DaysInYear * HoursInDay * MinutesInHour * SecondsInMinute
+
+SecondsInLeap = DaysInLeapYear * HoursInDay * MinutesInHour * SecondsInMinute
+
+if Days_this_year == 365:
+  print("This year in seconds is", SecondsInYear)
+else:
+  print("This year broken down in seconds is", SecondsInLeap)
