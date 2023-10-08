@@ -1,0 +1,12 @@
+print("<Welcome to the Super kind words generator>")
+
+name = input("What is your name? ")
+whatAchieve = input("What do you want to achieve this month? ")
+FeelingScale = input("How are you feeling today? ")
+
+if FeelingScale == "bad":
+  print("Cheer up", name,"This month youre going to",whatAchieve,"in the most unbelievable possible way possible")
+elif FeelingScale == "good":
+  print("That is amazing i hope you keep up the great work ")
+else:
+  print("i hope you figure out what makes you happy in life")
